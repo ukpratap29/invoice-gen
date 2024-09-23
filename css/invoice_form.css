@@ -1,0 +1,156 @@
+/* body {
+    border: 1px solid #000000;
+} */
+
+
+
+#inv-dtl {
+    font-weight: bold;
+    font-size: large;
+}
+
+.inv-title {
+    border-top: 2px solid #333;
+    border-left: 2px solid #333;
+    border-bottom: 1px solid #333;
+    border-right: 2px solid #333;
+}
+
+/* .top-div {
+    border-top: 1px solid #333;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333; 
+    border-bottom: 1px solid #333;
+} */
+
+.top-div-sec-1 {
+    border-top: 1px solid #333;
+    border-left: 2px solid #333;
+    /* border-bottom: 1px solid #333; */
+    border-right: 1px solid #333;
+}
+
+.top-div-sec-2 {
+    border-top: 1px solid #333;
+    border-left: 1px solid #333;
+    /* border-bottom: 1px solid #333; */
+    border-right: 2px solid #333;
+}
+
+
+.item-table {
+    border-top: 1px solid #333;
+    border-left: 2px solid #333;
+    border-right: 2px solid #333;
+    border-bottom: 2px solid #333;
+}
+
+
+.for {
+    border-top: 2px solid #333;
+    border-left: 2px solid #333;
+    border-right: 1px solid #333;
+    border-bottom: 2px solid #333;
+}
+
+.bnk-dtls {
+    border-top: 2px solid #333;
+    border-left: 1px solid #333;
+    border-right: 2px solid #333;
+    border-bottom: 2px solid #333;
+}
+
+.add-row-btn {
+    border-left: 2px solid #333;
+    border-right: 2px solid #333;
+}
+
+.table {
+    border: none;
+    border-collapse: collapse;
+}
+
+#total-amt-in-wrd-row {
+    border-bottom: none;
+}
+
+#clientAddr,
+#forDetails,
+#bankDetails {
+    resize: none;
+    border: none;
+}
+
+.print-mode .print-border {
+    border: none;
+    /* Remove border when printed */
+    box-shadow: none;
+    /* Remove any shadow (if applicable) */
+    background-color: transparent;
+    /* Optional: remove background color */
+}
+
+.print-mode #ln-item-h {
+    visibility: hidden;
+}
+
+.print-mode button {
+    visibility: hidden;
+}
+
+.print-mode .desc,
+.item-rate,
+.item-headcount,
+.gst-rate-value {
+    box-shadow: none;
+    border: none;
+}
+
+.print-mode body {
+    border-top: 2px solid #333;
+    /* Darker color and thicker width */
+    margin: 0;
+    /* Remove default margin */
+    padding: 20px;
+    /* Optional: Add padding */
+    border-right: 3px solid #333;
+    border-left: 2px solid #333;
+    border-bottom: 2px solid #333;
+}
+
+.print-mode .item-table {
+    border-bottom: none;
+}
+
+/* @media print {
+    .print-border {
+        border: none;
+        box-shadow: none;
+        background-color: transparent;
+    }
+
+   #ln-item-h {
+    visibility: hidden;
+   }
+    button {
+        visibility: hidden;
+    }
+    .desc, .item-rate, .item-headcount, .gst-rate-value {
+        box-shadow: none;
+        border: none;
+    }
+
+    body {
+        border-top: 2px solid #333;
+        margin: 0;
+        padding: 20px;
+        border-right: 3px solid #333;
+        border-left: 2px solid #333;
+        border-bottom: 2px solid #333;
+    }
+
+    .item-table {
+        border-bottom: none;
+    }
+
+} */
